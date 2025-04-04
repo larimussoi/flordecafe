@@ -1,0 +1,170 @@
+:root{
+    --marrom: #8C3926;
+    --botoes: #748C3F;
+    --letras: #F2E8DC;
+}
+.carousel-inner img {
+    max-height: 450px; 
+    width: auto;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    font-family: "Manrope";
+    background: rgba(60, 60, 60, 0.209); 
+    color: var(--letras); 
+    padding: 15px; 
+    border-radius: 8px; 
+  }
+  
+.texto-menor{
+    font-size: 13px;
+}
+
+.facilidades{
+    width: 325px;
+}
+
+.navbar{
+    background-color: var(--marrom);
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: var(--letras);
+}
+
+.navbar-brand{
+    width: 100px;
+}
+
+.btn{
+    border: 1px solid black;
+    color: black;
+}
+
+.btn:hover{
+    border: 1px solid var(--letras);
+    color: var(--letras);
+}
+
+.categoria{
+    background-color: var(--marrom);
+    color: var(--letras);
+}
+
+.btn-ver, .enviar{
+    border: 2px solid var(--botoes);
+    border-radius: 3px;
+    background-color: var(--botoes);
+    text-decoration: none;
+    padding: 5px;
+    color: var(--letras);
+}
+.btn-ver:hover, .enviar:hover{
+    background-color: var(--letras);
+    border: 2px solid var(--letras);
+    color: var(--botoes);
+    padding: 7px;
+}
+
+.footer{
+    background-color: var(--marrom);
+    color: var(--letras);
+}
+
+.facilidades-section{
+    background-color: var(--marrom);
+    color: var(--letras);
+    padding: 20px 0 20px 0;
+}
+
+.bi{
+    color: #a1d335;
+}
+
+.facilidades-texto{
+    margin-bottom: 20px;
+}
+
+.facilidades-titulo{
+    color: #a1d335;
+}
+
+.form{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 600px;
+    padding: 15px;
+}
+
+.img-categoria {
+    height: 300px;
+    width: auto;
+}
+
+.categoria {
+    height: 30px;
+}
+
+.categoria-texto {
+    text-align: center;
+}
+
+.produto-img {
+    height: 400px;
+}
+
+.endereco-titulo {
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.endereco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px; 
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+.endereco-img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.endereco-p {
+    max-width: 400px;
+    text-align: justify;
+}
+
+.endereco-mapa {
+    display: block;
+    margin: 20px auto; 
+    border-radius: 5px;
+}
+
+.contato-titulo {
+    text-align: center;
+    margin: 30px;
+}
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    list-style: none;
+}
+.contato-p {
+    list-style: none;
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flor de café - cafeteria e floricultura</title>
+  <link rel="shortcut icon" href="img/iconcoffee.svg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><h1 class="m-0"><img class="d-block" src="img/flordecafe.svg" alt="logo flor de café"></h1></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lojas.html">Lojas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquise o produto" aria-label="Search">
+          <button class="btn" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/coffeetable.jpeg" class="img-fluid w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>Cafeteria</h5>
+          <p>Você pode tomar seu café da tarde em um ambiente tranquilo e acolhedor.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/floricultura.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>Floricultura</h5>
+          <p>Presenteie alguém especial ou você mesmo com lindas flores.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>Delivery</h5>
+          <p>Envie presentes para quem você ama.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <h2 class="text-center my-3 my-xl-5">Busque por Categoria</h2>
+
+  <div class="container mx-auto g-4">
+    <div class="row">
+
+      <div class="col-4 col-md-4 col-xxl-2 d-block">
+        <div class="card rounded-0 border-0">
+          <img class="img-categoria" src="img/card1.jpeg" alt="imagem de cardápio">
+          <div class="categoria">
+            <p class="categoria-texto">Menu</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 col-md-4 col-xxl-2">
+        <div class="card rounded-0 border-0">
+         <img class="img-categoria" src="img/card2.jpg" alt="imagem de flores representando uma floricultura">
+          <div class="categoria">
+            <p class="categoria-texto">Floricultura</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 col-md-4 col-xxl-2">
+        <div class="card rounded-0 border-0">
+          <img class="img-categoria" src="img/card3.jpg" alt="foto de um presente com copos de café e flores">
+          <div class="categoria">
+            <p class="categoria-texto">Presentes</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <h2 class="text-center my-3 my-xl-5">Produtos que estão bombando</h2>
+
+  <div class="container">
+    <div class="row">
+
+    <div class="col-12 col-md-6 col-xl-4 pb-4">
+      <div class="card h-100">
+      <img class="produto-img" src="img/croissant pistache.jpg" alt="croissant recheado com creme de pistache">
+        <div class="card-body">
+          <h5 class="card-title">Croissant de pistache</h5>
+          <p class="card-text">Croissant recheado com um delicioso brigadeiro de pistache.</p>
+          <p>R$35,00</p>
+          <a href="#" class="btn-ver">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-xl-4 pb-4">
+      <div class="card h-100">
+        <img class="produto-img" src="img/latte matcha.webp" alt="xícara de latte matcha">
+        <div class="card-body">
+          <h5 class="card-title">Latte Matcha</h5>
+          <p class="card-text">Matcha latte é uma deliciosa combinação de pó de matcha refrescante e leite.</p>
+          <p>R$25,00</p>
+          <a href="#" class="btn-ver">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-xl-4 pb-4">
+      <div class="card h-100">
+        <img class="produto-img" src="img/bruschetta.jpeg" alt="foto de uma porção de bruschetta">
+        <div class="card-body">
+          <h5 class="card-title">Bruschetta (3un)</h5>
+          <p class="card-text">A bruschetta é uma entrada clássica da culinária italiana, que consiste em fatias de pão torrado cobertas com uma mistura de ingredientes frescos e saborosos.</p>
+          <p>R$25,00</p>
+          <a href="#" class="btn-ver">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-xl-4 pb-4">
+      <div class="card h-100">
+        <img class="produto-img" src="img/smoothieblb.jpg" alt="smoothie de blueberry">
+        <div class="card-body">
+          <h5 class="card-title">Smoothie de Blueberry</h5>
+          <p class="card-text">Smoothie de mirtilos frescos.</p>
+          <p>R$20,00</p>
+          <a href="#" class="btn-ver">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-xl-4 pb-4">
+      <div class="card h-100">
+        <img class="produto-img" src="img/tortalimao.jpg" alt="torta de limão">
+        <div class="card-body">
+          <h5 class="card-title">Torta de limão (fatia)</h5>
+          <p class="card-text">Deliciosa fatia de torta de limão.</p>
+          <p>R$10,00</p>
+          <a href="#" class="btn-ver">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-xl-4 pb-4">
+      <div class="card h-100">
+        <img class="produto-img" src="img/cappuccino.jpg" alt="xícara de cappuccino">
+        <div class="card-body">
+          <h5 class="card-title">Cappuccino</h5>
+          <p class="card-text">Uma bebida de café e leite de aproximadamente 150 a 180ml equilibrada entre o doce do leite e o espresso. </p>
+          <p>R$10,00</p>
+          <a href="#" class="btn-ver">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <section class="facilidades-section">
+
+    <h2 class="facilidades-texto text-center">Conheça todas as nossas facilidades</h2>
+
+    <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
+      <div class="facilidades d-flex align-items-center">
+        <div><i class="bi bi-x-diamond-fill fs-1"></i></div>
+        <div>
+          <div class="facilidades-titulo ms-3 mb-1">PAGUE PELO PIX</div>
+          <div class="texto-menor ms-3">Ganhe 5%OFF em pagamentos via PIX</div>
+        </div>
+      </div>
+
+      <div class="facilidades d-flex">
+        <div><i class="bi bi-truck fs-1"></i></div>
+        <div>
+          <div class="facilidades-titulo ms-3 mb-1">DELIVERY</div>
+          <div class="texto-menor ms-3">Envie seu presente para a pessoa especial.</div>
+        </div>
+      </div>
+
+      <div class="facilidades d-flex">
+        <div><i class="bi bi-tree-fill fs-1"></i></div>
+        <div>
+          <div class="facilidades-titulo ms-3 mb-1">SUSTENTABILIDADE</div>
+          <div class="texto-menor ms-3">Respeitamos o meio ambiente</div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <form class="form border border-secondary">
+    <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF no primeiro pedido? Cadastre-se!</h5>
+    <div class="input-group my-3">
+      <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail" aria-label="Digite seu e-mail" aria-describedby="button-addon2" /> 
+<button type="button" id="button-addon2" class="enviar">Enviar</button>
+    </div>
+  </form>
+
+  <footer class="footer text-center">
+    <p class="py-3">2025 <i class="bi bi-c-circle"></i> Desenvolvido por Larissa | Projeto fictício sem fins comerciais.</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
