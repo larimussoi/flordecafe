@@ -94,14 +94,7 @@
     color: #a1d335;
 }
 
-.form{
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    width: 600px;
-    padding: 15px;
-}
+
 
 .img-categoria {
     height: 300px;
@@ -163,7 +156,6 @@
     justify-content: center;
     text-align: center;
     margin: 20px;
-    list-style: none;
 }
 .contato-p {
     list-style: none;
