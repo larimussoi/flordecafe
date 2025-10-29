@@ -49,6 +49,8 @@ h2, .endereco-titulo, .contato-titulo {
 /* Navbar */
 .navbar {
   background-color: var(--nav-footer);
+  border: none;
+  box-shadow: none;
 }
 
 .navbar-brand {
@@ -62,6 +64,14 @@ h2, .endereco-titulo, .contato-titulo {
 .nav-link:hover {
   color: var(--text);
 }
+
+/* Remove borda/assinatura no botão hamburguer */
+.navbar .navbar-toggler {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
 
 /* Experiência */
 .experiencia{
