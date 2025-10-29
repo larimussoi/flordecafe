@@ -19,49 +19,54 @@
   <style>
     body {
       width: 100%;
-      height: auto;
-      display: block;
+      min-height: 100vh;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; 
       background: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-        url('../img/backgroundbruschetta.jpg') no-repeat center center fixed;
+        url('../img/backgroundbruschetta.jpg') no-repeat center center;
+      background-repeat: no-repeat;
       background-size: cover;
+      background-attachment: fixed;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .bruschetta {
+      color: #F2E8DC;
+      font-family: "Raleway", sans-serif;
+      text-align: justify;
+      padding: 10% 30%;
+      flex: 1; 
+    }
+
+    .titulo-bruschetta {
+      font-size: 50px;
+      font-weight: 800;
+      margin-bottom: 30px;
       text-align: center;
     }
-    .bruschetta{
-        color: #F2E8DC;
-        font-family: "Raleway", sans-serif;
-        text-align: justify;
-        padding-right: 40%;
-        padding: 10% 40%;
-    }
-    .titulo-bruschetta{
-        font-size: 50px;
-        font-weight: 800;
-        margin-bottom: 30px;
+
+    @media (max-width: 768px) {
+      .bruschetta {
+        padding: 15% 10%;
+      }
+
+      .titulo-bruschetta {
+        font-size: 36px;
+      }
     }
 
-@media (max-width: 768px) {
-  .bruschetta {
-    padding: 15% 10%;
-  }
+    @media (max-width: 480px) {
+      .titulo-bruschetta {
+        font-size: 28px;
+        text-align: center;
+      }
 
-  .titulo-bruschetta {
-    font-size: 32px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .bruschetta {
-    padding: 20px;
-    text-align: left;
-  }
-
-  .titulo-bruschetta {
-    font-size: 28px;
-    text-align: center;
-  }
-}
+    }
   </style>
 </head>
 
