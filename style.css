@@ -72,15 +72,14 @@ h2, .endereco-titulo, .contato-titulo {
   box-shadow: none;
 }
 
-
 /* Experiência */
 .experiencia{
   padding: 0 150px;
   margin: 20px 0;
+  text-align: center;
 }
 .paragrafo{
-  padding: 0 150px;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 /* Botões gerais */
@@ -264,13 +263,13 @@ main {
 
 @media (max-width: 768px) {
   .experiencia {
-    padding: 2px;
+    padding: 0 40px;
   }
 }
 
 @media (max-width: 480px) {
   .experiencia {
-    padding: 20px;
+    padding: 0 20px;
     text-align: left;
   }
 }
