@@ -270,7 +270,7 @@ main {
 @media (max-width: 480px) {
   .experiencia {
     padding: 0 20px;
-    text-align: left;
+    text-align: center;
   }
 }
 
