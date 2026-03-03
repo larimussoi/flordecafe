@@ -102,7 +102,7 @@ function renderProdutos(lista) {
 
           <div class="d-flex justify-content-between align-items-center mt-3">
             <p class="preco-produto fw-bold">${formatarPreco(produto.preco)}</p>
-           <a href="${produto.link}" class="btn-ver" target="_blank">Ver mais</a>
+           <a href="produto.html?item=${produto.id}" class="btn-ver" target="_blank">Ver mais</a>
           </div>
         </div>
       </div>
